@@ -1,6 +1,7 @@
-* {
+html {
   box-sizing: border-box;
 }
+*,
 *:before,
 *:after {
   box-sizing: inherit;
@@ -70,7 +71,7 @@ h1 {
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 40px;
+  padding: 20px 40px 20px 40px;
   line-height: 27px;
   color: #6D6D6D;
   text-align: justify;
@@ -84,7 +85,7 @@ h1 {
 }
 
 /* @media Rule */
-@media all and (min-width: 600px) {
+@media all and (min-width: 850px) {
   .post__header {
     position: absolute;
     background-position: 0, 25;
@@ -93,7 +94,7 @@ h1 {
   }
   .post__content {
     position: absolute;
-    padding: 20px 40px 15% 5%;
+    padding: 20px 40px 20px 5%;
     top: 0;
     bottom: 0;
     width: 50%;
